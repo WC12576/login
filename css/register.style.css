@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Microsoft YaHei";
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: repeating-linear-gradient( -45deg, #D7D3C7, #D7D3C7 2px, #CECABE 2px, #CECABE 4px);
+}
+.wrapper{
+    width: 375px;
+    height: 667px;
+    border-radius: 20px;
+    background: white;
+}
+.goback>div{
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #FF523B;
+}
+.goback>h1{
+    margin-top: 80px;
+    margin-left: 50px;
+    color: #FF523B;
+
+}
+.goback p{
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.goback p:last-child{
+    margin-top: 10px;
+}
+.information>form{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.information>form>input{
+    width: 300px;
+    line-height: 60px;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid #666;
+    outline-style: none;
+    font-size: 20px;
+}
+ .information>form>input::-webkit-input-placeholder {
+        font-size: 20px;
+}
+.information>div{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: right;
+}
+.information>.signup input{
+    width: 300px;
+    line-height: 50px;
+    margin: 30px auto;
+    display: block;
+    background: #FF523B;
+    color: white;
+    outline-style: none;
+    border: 1px solid #FF523B;
+    border-radius: 10px;
+}
