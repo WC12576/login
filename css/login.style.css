@@ -25,18 +25,19 @@ body{
     color: #FF523B;
 }
 .goback>h1{
-    margin-top: 80px;
+    margin-top: 40px;
     margin-left: 50px;
     color: #FF523B;
 
 }
 .goback p{
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: 50px;
     font-size: 30px;
 }
 .goback p:last-child{
     margin-top: 10px;
+    padding-bottom: 30px;
 }
 .information>form{
     width: 300px;
